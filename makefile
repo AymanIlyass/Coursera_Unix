@@ -9,8 +9,8 @@ all : README.md
 README.md :
 	echo "# Title: Guessing Game" > README.md
 	echo "### Date & Time:" >> README.md
-	echo "- $(date)" >> README.md
-	echo "\n**P.S**  number of line contained in *guessinggame.sh* is: **$(cat guessinggame.sh | wc -l) lines** " >> README.md
+	echo "- $$(date)" >> README.md
+	echo "\n**P.S**  number of lines contained in *guessinggame.sh* is: **$$(cat guessinggame.sh | wc -l) lines** " >> README.md
 
 #To remove all new configurations:
 mrproper :
